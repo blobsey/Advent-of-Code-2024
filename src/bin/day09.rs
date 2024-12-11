@@ -1,6 +1,3 @@
-use core::num;
-use std::thread::current;
-
 fn main() {
     let input = std::fs::read_to_string("input/day09.txt")
         .expect("Error reading file");
